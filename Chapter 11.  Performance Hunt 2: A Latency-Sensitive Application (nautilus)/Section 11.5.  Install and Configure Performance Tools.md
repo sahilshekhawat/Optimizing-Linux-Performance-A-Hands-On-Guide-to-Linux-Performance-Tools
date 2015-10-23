@@ -1,0 +1,3 @@
+### 11.5\. Install and Configure Performance Tools
+
+The next step <a name="iddle2502"></a><a name="iddle2503"></a><a name="iddle2504"></a><a name="iddle2505"></a><a name="iddle2506"></a><a name="iddle2507"></a><a name="iddle2508"></a>in the hunt is to install the performance tools we need to investigate the problem. As we did in the performance hunt for the GIMP, we will install both <tt>oprofile</tt> and <tt>ltrace</tt>. In this case, we will also download and install <tt>gdb</tt> (if it is not already installed). <tt>gdb</tt> enables us to look at some of the dynamic aspects of the running application.
