@@ -1,0 +1,3 @@
+### 12.9\. Testing the Solution
+
+Because we have <a name="iddle2830"></a><a name="iddle2831"></a><a name="iddle2832"></a><a name="iddle2833"></a><a name="iddle2834"></a>not solved the problem in the <tt>prelink</tt> code, but instead reported a bug, we cannot test the fixed <tt>prelink</tt> time against our original baseline immediately. However, if the author or maintainer is able to implement the proposed changes, or even find a better way to optimize things, we will be able to check out the performance of the updated version when it arrives.

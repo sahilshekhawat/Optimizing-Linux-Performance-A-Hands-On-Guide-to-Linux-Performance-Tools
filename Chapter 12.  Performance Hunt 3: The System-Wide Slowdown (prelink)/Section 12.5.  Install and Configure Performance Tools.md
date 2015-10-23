@@ -1,0 +1,3 @@
+### 12.5\. Install and Configure Performance Tools
+
+The next step in the <a name="iddle2718"></a><a name="iddle2719"></a><a name="iddle2720"></a><a name="iddle2721"></a>hunt is to install the performance tools. In this case, neither <tt>ltrace</tt> nor <tt>oprofile</tt> will be of help. <tt>oprofile</tt> is used to profile applications that use a significant amount of CPU time, and because <tt>prelink</tt> uses only about 3 percent of the CPU when running, <tt>oprofile</tt> will not help us. Because the <tt>prelink</tt> binary is statically linked and does not use any shared libraries, <tt>ltrace</tt> will also not help us. However, <tt>strace</tt>, the system <a name="iddle2722"></a><a name="iddle2723"></a>call tracer, may help, so we need to install that.

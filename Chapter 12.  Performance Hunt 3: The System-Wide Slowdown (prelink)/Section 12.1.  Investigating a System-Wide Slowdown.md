@@ -1,0 +1,3 @@
+### 12.1\. Investigating a System-Wide Slowdown
+
+In this chapter, we investigate a system-wide slowdown. Initially, we will notice that the system is behaving slowly, and we will use the Linux performance tools to pinpoint the exact cause. This sort of problem happens quite often. As a user or system administrator, you may sometimes notice the Linux machine becoming sluggish or taking a long time to complete a task. It is valuable to be able to figure out why the machine is slowing <a name="iddle2663"></a><a name="iddle2664"></a>down.
