@@ -1,0 +1,5 @@
+### 5.3\. Chapter Summary
+
+This chapter presented the various Linux tools that are available to diagnose memory-performance problems. It demonstrated tools that show how much memory an application is consuming (<tt>ps</tt>, /<tt>proc</tt>) and which functions within the application are allocating that memory (<tt>memprof</tt>). It also covered tools that can monitor the effectiveness of the processor and system cache and memory subsystem (<tt>cachegrind</tt>, <tt>kcachegrind</tt> and <tt>oprofile</tt>). Finally, it described a tool that monitors shared memory usage (ipcs). Used together, these tools can track every allocation of memory, the size of these allocations, the functional locations of the allocations in the applications, and how effectively the application is using the memory subsystem when accessing these allocations.
+
+The next chapter moves away from memory to investigate disk I/O bottlenecks.
