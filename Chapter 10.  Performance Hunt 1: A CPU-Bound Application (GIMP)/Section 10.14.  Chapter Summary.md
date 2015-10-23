@@ -1,0 +1,7 @@
+### 10.14\. Chapter Summary
+
+In this chapter, we determined why an application (the GIMP filter <tt>lic</tt>) was CPU-bound. We figured out the base runtime of the application, set a goal for optimization, and saved a reference image to verify that our optimizations did not change the behavior of the application. We used the Linux CPU performance tools (<tt>oprofile</tt> and <tt>ltrace</tt>) to investigate exactly why the application was CPU-bound. We then used the Web to understand how the application worked and to figure out different ways to optimize it. We tried a few different optimizations, but ultimately, we chose the classic performance trade-off of increased memory usage for reduced CPU usage.
+
+We beat our optimization goal, and then verified that our optimization did not change the output of the application.
+
+Whereas this chapter focused on optimizing a single application's runtime, the next chapter presents a performance hunt that concentrates on reducing the amount of latency when interacting with X Windows. Reducing latency can be tricky, because a single event often sets off a nonobvious set of other events. The hard part is figuring out what events are being called and how long each of them are taking.

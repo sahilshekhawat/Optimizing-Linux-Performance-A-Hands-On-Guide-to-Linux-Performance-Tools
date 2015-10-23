@@ -1,0 +1,3 @@
+### 10.13\. Next Steps
+
+We exceeded our goal of 10 percent performance increase in the <tt>lic</tt> filter, so in that sense, we are done with the optimization process. However, if we want to continue to increase performance, we have to reprofile the filter when using the new optimizations. It is important to reprofile the application after each performance optimization is applied and to not rely on old profiles when continuing to optimize the application. The application's runtime behavior can change dramatically after each optimization. If you do not profile after every optimization, you run the risk of chasing a performance problem that no longer exists.
