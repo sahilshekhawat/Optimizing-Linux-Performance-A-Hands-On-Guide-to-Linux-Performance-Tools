@@ -1,0 +1,5 @@
+### 8.3\. Chapter Summary
+
+This chapter provided a grab bag of Linux utility tools that are useful when investigating a performance problem. It introduced tools such as <tt>bash</tt>, <tt>watch</tt>, <tt>tee</tt>, and <tt>script</tt>, which automate the display and collection of performance data. It also introduced <tt>gnumeric</tt>, a tool that can both graph and analyze the results of text-based performance tools. It then investigated <tt>ldd</tt> and <tt>objdump</tt>, which can be used to track down which library a function is part of. It then described <tt>gdb</tt>, a tool that can investigate the execution and runtime information of currently running applications. Finally, this chapter described <tt>gcc</tt>, a tool that can produce binaries with symbolic debugging information that helps other performance tools, such as <tt>oprofile</tt>, to map events back to a specific source line.
+
+In the upcoming chapters, we put together all the tools presented so far and solve some real-life performance problems.

@@ -1,0 +1,3 @@
+### 9.9\. The End
+
+When you finally arrive here, your problem may or may not be solved, but you will have a lot of information characterizing it. Search the Web and newsgroups for people with similar problems. E-mail them and developers to see how they resolved it. Try a solution and see whether the system's or application's behavior has changed. Every time you try a new solution, jump to [Section 9.2](ch09lev1sec2.html#ch09lev1sec2) to diagnose the system again, because the application's behavior may change with every fix.
